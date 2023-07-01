@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.App::before {
+  content: "";
+  background-image: url(https://free4kwallpapers.com/uploads/originals/2021/09/08/rick-amp-mortys-season-final-shot-wallpaper.jpg);
+  /* background-image: url(../../../../../../../Me/Imagenes//0935863c2ed5e07e5a3c3efe346badc9.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  filter: blur(10px);
+  position: fixed;
+  z-index: -1;
+}

@@ -1,0 +1,76 @@
+.loginContainer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 80px;
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 500px;
+    height: 400px;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.loginContainer form{
+    margin: auto;
+}
+
+ .errors{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 37px;
+    color: rgba(224, 34, 34, 0.993);
+ }
+
+.userName{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    padding: 35px;
+}
+
+.userName label, .password label{
+    margin-bottom: 10px;
+}
+
+.userName input, .password input{
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    padding: 35px;
+}
+
+.loginContainer button{
+    
+    font-weight: 700;
+    font-size: 17px;
+    background: none;
+    border: 2px solid;
+    border-bottom-width: 4px;
+    letter-spacing: 0.125em;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #9c89f7;
+    cursor: pointer;
+    transition: color 1s;
+}
+
+.loginContainer button:hover{    
+    animation: halftone 1s forwards;
+    background: radial-gradient(circle, #9c89f7 0.2em, transparent 0.25em) 0 0 / 1.25em 1.25em,
+      radial-gradient(circle, #9c89f7 0.2em, transparent 0.25em) 6.25em 6.25em / 1.25em 1.25em;
+    color: #00000094;
+}
+
+@keyframes halftone {
+    100% {
+      background-size: 2.375em 2.375em, 0.1em 0.1em;
+    }
+}
