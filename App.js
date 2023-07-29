@@ -15,7 +15,7 @@ function App({ removeFavorites }) {
   const [access, setAccess] = useState(false);
 
   const username = "JoseAntonio",
-    password = "1234";
+    password = "12345";
 
   const location = useLocation();
   const navigate = useNavigate();
